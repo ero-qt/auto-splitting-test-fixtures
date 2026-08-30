@@ -21,9 +21,11 @@ The program inside is the emptiest one the engine builds, made the way a shipped
 
 Engines separate by data, not structure: the tag prefix, the asset names, and the manifest's `engine` field. Tooling lives per engine under `tools/`.
 
-## Building
+## Tools
 
-- [`Unity`](tools/unity/build)
+- Unity
+  - [building fixtures](tools/unity/build)
+  - [measuring offsets](tools/unity/measure)
 
 ## Licensing
 
